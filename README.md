@@ -30,7 +30,7 @@ Our App provides student the information about all the past courses in UCSD, inc
 
 **Required Must-have Stories**
 * [x] Users see app icons on the home and launch screen
-* [ ] Users can login / logout to save their personal info & favorite CAPEs [i.e. Twitter, unit 3]
+* [x] Users can login / logout to save their personal info & favorite CAPEs [i.e. Twitter, unit 3]
 * [ ] Users can search for the information of courses by instructor's name or course number
 * [ ] Users can see the instructor's name and his/her CAPE summary
 
