@@ -39,7 +39,7 @@ Our App provides student the information about all the past courses in UCSD, inc
 * [ ] Users can leave new comments (new evaluation) [i.e. Twitter, unit 4]
 
 
-<img src='https://i.imgur.com/UCpCYXc.gif' title='stay logged in across restarts/log out' width=250 alt='stay logged in across restarts/log out' />
+<img src='https://i.imgur.com/UCpCYXc.gif' title='stay logged in across restarts/log out' width=300 alt='stay logged in across restarts/log out' />
 
 
 https://user-images.githubusercontent.com/77253286/139623332-c6d6984e-fe27-451f-93dd-5ebd52d9250c.mov
