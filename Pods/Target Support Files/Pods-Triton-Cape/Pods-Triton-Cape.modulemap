@@ -1,0 +1,6 @@
+framework module Pods_Triton_Cape {
+  umbrella header "Pods-Triton-Cape-umbrella.h"
+
+  export *
+  module * { export * }
+}
