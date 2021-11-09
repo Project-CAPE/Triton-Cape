@@ -41,12 +41,6 @@ Our App provides student the information about all the past courses in UCSD, inc
 
 <img src='https://i.imgur.com/UCpCYXc.gif' title='stay logged in across restarts/log out' width=300 alt='stay logged in across restarts/log out' />
 
-
-https://user-images.githubusercontent.com/77253286/139623332-c6d6984e-fe27-451f-93dd-5ebd52d9250c.mov
-
-
-
-
 ### 2. Screen Archetypes
 
 * Login 
