@@ -577,6 +577,9 @@
                                 <state key="normal" title="Sign Out">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onLogoutButton:" destination="Dey-pS-36i" eventType="touchUpInside" id="hx7-gH-OG2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rp1-hN-FFe"/>
