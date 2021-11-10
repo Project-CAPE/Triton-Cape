@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -95,7 +96,6 @@
         <!--Root View Controller-->
         <scene sceneID="e4N-Bd-wTh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ok8-iS-2zS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="c20-Zu-12I" customClass="FeedTableViewController" customModule="Triton_Cape" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fiN-N3-rgH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -103,7 +103,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dlB-Ie-OkP">
-                                <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dlB-Ie-OkP" id="wOR-TG-zVV">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -124,6 +124,7 @@
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ok8-iS-2zS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1586" y="76"/>
         </scene>
@@ -131,6 +132,7 @@
         <scene sceneID="1a5-EF-OLg">
             <objects>
                 <tabBarController id="dhS-tC-RIx" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vFe-Dk-D40"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lFa-9u-ZQN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -260,7 +262,6 @@
         <!--Navigation Controller-->
         <scene sceneID="uJF-sT-9DI">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YYM-7i-Hdf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="Jal-DT-Xcs" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="homekit" catalog="system" id="h1Z-q4-GZ7"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cw6-ej-e5b">
@@ -271,6 +272,7 @@
                         <segue destination="uUI-M1-HRG" kind="relationship" relationship="rootViewController" id="gRY-fl-rnD"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YYM-7i-Hdf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2090" y="804"/>
         </scene>
@@ -288,7 +290,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="178" id="W17-0O-Xbz">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="178"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="178"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W17-0O-Xbz" id="f8V-SG-WAU">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="178"/>
@@ -401,7 +403,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="178" id="qiC-jn-jlG">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="178"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="178"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qiC-jn-jlG" id="YPl-hu-3sb">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="178"/>
@@ -503,7 +505,7 @@
         <!--Home View Controller-->
         <scene sceneID="9m2-qN-IJU">
             <objects>
-                <viewController id="uUI-M1-HRG" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="uUI-M1-HRG" customClass="HomeViewController" customModule="Triton_Cape" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ueJ-yS-hYG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -563,7 +565,7 @@
         <!--Profile View Controller-->
         <scene sceneID="H5Z-rD-qIP">
             <objects>
-                <viewController id="Dey-pS-36i" customClass="ProfileViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileViewController" id="Dey-pS-36i" customClass="ProfileViewController" customModule="Triton_Cape" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fqt-Zc-D7f">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -617,7 +619,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="c20-Zu-12I" kind="relationship" relationship="rootViewController" id="S0M-gK-cgg"/>
+                        <segue destination="dhS-tC-RIx" kind="relationship" relationship="rootViewController" id="kSy-s3-BPb"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F1J-gc-HHt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

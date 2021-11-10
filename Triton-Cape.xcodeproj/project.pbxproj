@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0D3B2D7027313A040053CB92 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B2D6F27313A040053CB92 /* FeedTableViewController.swift */; };
+		0D76D056273B80550042DEAC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D76D055273B80540042DEAC /* HomeViewController.swift */; };
+		0D76D058273B80610042DEAC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D76D057273B80610042DEAC /* ProfileViewController.swift */; };
 		2CD6CB35F7740A0410AD39EE /* Pods_Triton_Cape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EA2F2ABF929E33065FC126 /* Pods_Triton_Cape.framework */; };
 		48510FC5C1223CD96C5792B8 /* Pods_Triton_Cape_Triton_CapeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE458D3A7B0F33C86D4C7C7 /* Pods_Triton_Cape_Triton_CapeUITests.framework */; };
 		D64D8B162728FE2600315F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D8B152728FE2600315F5B /* AppDelegate.swift */; };
@@ -43,6 +45,8 @@
 		09EA2F2ABF929E33065FC126 /* Pods_Triton_Cape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Triton_Cape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8674C1B99FC67283B07D0B /* Pods-Triton-Cape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triton-Cape.release.xcconfig"; path = "Target Support Files/Pods-Triton-Cape/Pods-Triton-Cape.release.xcconfig"; sourceTree = "<group>"; };
 		0D3B2D6F27313A040053CB92 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		0D76D055273B80540042DEAC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0D76D057273B80610042DEAC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2935B98A2AB56AF856CAE44B /* Pods-Triton-CapeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triton-CapeTests.release.xcconfig"; path = "Target Support Files/Pods-Triton-CapeTests/Pods-Triton-CapeTests.release.xcconfig"; sourceTree = "<group>"; };
 		3FDB8CF9B845C0FAAE30FE9E /* Pods-Triton-Cape-Triton-CapeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triton-Cape-Triton-CapeUITests.release.xcconfig"; path = "Target Support Files/Pods-Triton-Cape-Triton-CapeUITests/Pods-Triton-Cape-Triton-CapeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5237C6241B6F49EECF63EECB /* Pods-Triton-Cape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triton-Cape.debug.xcconfig"; path = "Target Support Files/Pods-Triton-Cape/Pods-Triton-Cape.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				D64D8B202728FE2900315F5B /* LaunchScreen.storyboard */,
 				D64D8B232728FE2900315F5B /* Info.plist */,
 				0D3B2D6F27313A040053CB92 /* FeedTableViewController.swift */,
+				0D76D055273B80540042DEAC /* HomeViewController.swift */,
+				0D76D057273B80610042DEAC /* ProfileViewController.swift */,
 			);
 			path = "Triton-Cape";
 			sourceTree = "<group>";
@@ -409,6 +415,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D76D058273B80610042DEAC /* ProfileViewController.swift in Sources */,
+				0D76D056273B80550042DEAC /* HomeViewController.swift in Sources */,
 				D64D8B46272D130B00315F5B /* loginViewController.swift in Sources */,
 				D64D8B162728FE2600315F5B /* AppDelegate.swift in Sources */,
 				D64D8B182728FE2600315F5B /* SceneDelegate.swift in Sources */,
