@@ -10,9 +10,11 @@ import Parse
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var usernameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        usernameLabel.text = "Username: \(PFUser.current()?.username ?? "")"
         // Do any additional setup after loading the view.
     }
     
